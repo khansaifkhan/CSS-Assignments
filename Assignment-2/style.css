@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    background-color: rgb(212, 200, 200);
+    border: 4px solid green;
+    box-shadow: 2px 0px 5px greenyellow inset;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-container{
+    width: 80%;
+    margin: auto;
+    height: 170px;
+    position: relative;
+}
+
+.box-1{
+    border: 5px solid red;
+    width: 32%;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 15px 15px 25px 15px;
+    text-align: center;
+    border-radius: 15px;
+    position: absolute;
+    top: 10%;
+}
+
+.box-2{
+    border: 5px solid red;
+    width: 40%;
+    font-size: 22px;
+    color: white;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 15px 15px 25px 15px;
+    text-align: center;
+    border-radius: 40px;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+}
+
+.box-3 {
+    border: 5px solid red;
+    width: 30%;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 15px 15px 25px 15px;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.box-3 .box-3-cont{
+    margin-top: 6px;
+}
+
+.circle-and-reg_page{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle{
+    width: 350px;
+    height: 350px;
+    border: 6px solid rgb(84, 82, 82);
+    text-align: center;
+    border-radius: 50%;
+    background-color:darkcyan;
+}
+
+.circle-cont{
+    text-transform: uppercase;
+    font-style: italic;
+    padding: 30px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.hor-line-1{
+    width: 300px;
+    margin: auto;
+}
+
+.hor-line-2 {
+    width: 315px;
+    margin: auto;
+}
+
+.reg_page{
+    width: 380px;
+    border: 5px dashed red;
+    text-align: center;
+}
+
+.form-heading{
+    color: red;
+    text-transform: uppercase;
+    margin: 25px 0px;
+}
+
+.line-below-head{
+    margin-bottom: 30px;
+    height: 2px;
+    background-color: black;
+}
+
+label{
+    color: red;
+}
+.input{
+    padding: 3px;
+    width: 200px;
+    outline-color: blue;
+    margin-bottom: 20px;
+}
+
+#submit {
+    width: 100px;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+
+#submit:hover{
+    color: red;
+    background-color: rgb(242, 229, 229);
+}
+
+
+
+#reset{
+    width: 70px;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+
+#reset:hover {
+    color: red;
+    background-color: rgb(242, 229, 229);
+}
+
+.menu{
+    width: 40%;
+    text-transform: uppercase;
+    border: 5px solid red;
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    text-align: center;
+    padding: 25px 0px;
+    border-radius: 40px;
+    margin-top: 30px;
+}
+
+.menu-line{
+    margin-top: 10px;
+}
+
+/* cards are start from here */
+
+/* card-1 */
+
+.all-cards{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-1{
+    margin-top: 20px;
+    width: 25%;
+    background-color: aqua;
+    border: 2px solid green;
+    border-radius: 30px;
+}
+
+.card-1-heading{
+    color:darkslateblue;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+ul{
+    padding: 25px;
+}
+
+.card-1-list{
+    color: darkslateblue;
+    text-align: center;
+}
+
+/* card-2 */
+
+.card-2 {
+    margin-top: 20px;
+    width: 25%;
+    background-color: aqua;
+    border: 2px solid green;
+    border-radius: 30px;
+}
+
+.card-2-heading {
+    color: darkslateblue;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.card-2-list {
+    color: darkslateblue;
+    text-align: center;
+}
+
+/* card-3 */
+
+.card-3 {
+    margin-top: 20px;
+    width: 25%;
+    background-color: aqua;
+    border: 2px solid green;
+    border-radius: 30px;
+}
+
+.card-3-heading {
+    color: darkslateblue;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.card-3-list {
+    color: darkslateblue;
+    text-align: center;
+}
+
+/* card-4 */
+
+.card-4 {
+    margin-top: 20px;
+    width: 25%;
+    background-color: aqua;
+    border: 2px solid green;
+    border-radius: 30px;
+}
+
+.card-4-heading {
+    color: darkslateblue;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.card-4-list {
+    color: darkslateblue;
+    text-align: center;
+}
+
+/* card-5 */
+
+.card-5 {
+    margin-top: 20px;
+    width: 25%;
+    background-color: aqua;
+    border: 2px solid green;
+    border-radius: 30px;
+}
+
+.card-5-heading {
+    color: darkslateblue;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.card-5-list {
+    color: darkslateblue;
+    text-align: center;
+}
+
+/* card-6 */
+
+.card-6 {
+    margin-top: 20px;
+    width: 25%;
+    background-color: aqua;
+    border: 2px solid green;
+    border-radius: 30px;
+}
+
+.card-6-heading {
+    color: darkslateblue;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.card-6-list {
+    color: darkslateblue;
+    text-align: center;
+}
+
+.card {
+    margin: 50px 20px 0px 20px;
+}

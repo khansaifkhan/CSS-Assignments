@@ -1,0 +1,75 @@
+.heading-2{
+    color: red;
+    font-style: italic;
+    line-height: 2;
+}
+
+.ordered-list{
+    color: brown;
+    font-weight: 500;
+    line-height: 3;
+}
+
+#overText{
+    color: brown;
+    font-weight:900;
+    text-decoration: line-through;
+}
+
+#highLight{
+    background-color: yellow;
+    color: brown;
+    font-weight: 900;
+}
+
+#normalText{
+    color: brown;
+}
+
+.unordered-list{
+    color: brown;
+    font-size: 18px;
+    word-spacing: 5px;
+    letter-spacing: 4px;
+}
+
+.list-4 {
+    font-size: 18px;
+}
+
+#text-1{
+    color: brown;
+    font-size: 18px;
+    word-spacing: 5px;
+    letter-spacing: 4px;
+}
+
+#text-2{
+    color: brown;
+    font-size: 19px;
+    word-spacing: 5px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+#text-3 {
+    color: brown;
+    font-size: 18px;
+    word-spacing: 5px;
+    letter-spacing: 4px;
+}
+
+.para-1{
+    color: brown;
+    font-size: 18px;
+    text-shadow: 0.2px 0.2px yellow;
+}
+
+#anchor{
+    color: rgb(235, 2, 2);
+    background-color: yellow;
+    font-style: italic;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
