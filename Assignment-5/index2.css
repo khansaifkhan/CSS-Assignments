@@ -1,0 +1,58 @@
+body {
+    background-color: #fef850;
+}
+
+.firstLine,
+.secondLine,
+.thirdLine,
+.fourthLine,
+.fifthLine,
+.sixthLine,
+.seventhLine {
+    background-color: #8fc63a;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 2em;
+    transition: width 2s linear;
+}
+
+.firstLine:hover {
+    width: 300px;
+}
+
+.a {
+    transition: width 2s ease-in-out, height 2s ease-in-out;
+    ;
+}
+
+.b {
+    transition: width 2s linear;
+}
+
+.c {
+    transition: width 2s ease;
+}
+
+.d {
+    transition: width 2s ease-in;
+}
+
+.e {
+    transition: width 2s ease-out;
+}
+
+.f {
+    transition: width 2s ease-in-out;
+}
+
+.secondLine:hover {
+    width: 300px;
+    height: 300px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    ;
+}

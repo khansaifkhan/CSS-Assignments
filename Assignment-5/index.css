@@ -1,0 +1,103 @@
+.firstStyle,
+.secondStyle,
+.thirdStyle,
+.fourthStyle {
+    display: flex;
+    ;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.firstLine,
+.secondLine,
+.thirdLine,
+.fourthLine {
+    border: 2px solid black;
+    display: flex;
+    width: 10vw;
+    height: 20vh;
+    margin: 3em;
+    /* transform: skewX(40deg); */
+    background-color: #518990;
+    animation: myMove_1 4s infinite alternate;
+}
+
+.secondLine {
+    background-color: #9f9f9f;
+    animation: myMove_2 4s infinite alternate;
+}
+
+.thirdLine {
+    background-color: #518990;
+    animation: myMove_3 4s linear infinite;
+}
+
+.a {
+    background-color: blue;
+    animation: myMove_4 4s infinite;
+}
+
+.b {
+    background-color: #9b4838;
+    animation: myMove_5 5s infinite;
+}
+
+.c {
+    background-color: #62aa5a;
+    animation: myMove_3 4s linear infinite alternate;
+
+}
+
+@keyframes myMove_1 {
+    0% {
+        transform: skewX(-20deg);
+    }
+
+    100% {
+        transform: skewX(20deg);
+    }
+
+}
+
+@keyframes myMove_2 {
+    0% {
+        transform: skewy(20deg);
+    }
+
+    100% {
+        transform: skewy(-20deg);
+    }
+}
+
+@keyframes myMove_3 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes myMove_4 {
+    0% {
+        transform: rotateX(90deg);
+    }
+}
+
+@keyframes myMove_5 {
+    50% {
+        transform: rotateY(80deg);
+    }
+}
+
+@keyframes myMove_6 {
+    0% {
+        transform: rotate(-360deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
